@@ -20,7 +20,7 @@ const DATA = {
         {"department": "Maintenance and Facility", "title": "maintenance"},
     ],
     "details": [
-        {"age": [22, 23, 24, ,29, 30, 32 ]},
+        {"age": [22, 23, 24 ,29, 30, 32 ]},
         {"experience": ['2 Tahun', '3 Tahun', '4 Tahun',]}
     ],
     // PRINT DATA
@@ -73,8 +73,8 @@ const DATA = {
             let employeeName = DATA.employees[4] .firstName
             let employeeName2 = DATA.employees[4] .lastName
             let employeeJob = DATA.jobs[1].department
-            let employeeTitle = DATA.jobs[1].title[4]
-            let employeeAge = DATA.details[0].age[0]
+            let employeeTitle = DATA.jobs[1].title[2]
+            let employeeAge = DATA.details[0].age[1]
             let employeeExperience = DATA.details[1].experience[0]
 
             console.log(`name: ${employeeName} ${employeeName2}, jobs: department: ${employeeJob}, title: ${employeeTitle}, age: ${employeeAge}, Experience: ${employeeExperience}`);
@@ -84,9 +84,9 @@ const DATA = {
             let employeeName = DATA.employees[5] .firstName
             let employeeName2 = DATA.employees[5] .lastName
             let employeeJob = DATA.jobs[3].department
-            let employeeTitle = DATA.jobs[1].title[4]
-            let employeeAge = DATA.details[0].age[0]
-            let employeeExperience = DATA.details[1].experience[0]
+            let employeeTitle = DATA.jobs[3].title
+            let employeeAge = DATA.details[0].age[5]
+            let employeeExperience = DATA.details[1].experience[2]
 
             console.log(`name: ${employeeName} ${employeeName2}, jobs: department: ${employeeJob}, title: ${employeeTitle}, age: ${employeeAge}, Experience: ${employeeExperience}`);
             
@@ -95,8 +95,8 @@ const DATA = {
             let employeeName = DATA.employees[6] .firstName
             let employeeName2 = DATA.employees[6] .lastName
             let employeeJob = DATA.jobs[5].department
-            let employeeTitle = DATA.jobs[1].title[4]
-            let employeeAge = DATA.details[0].age[0]
+            let employeeTitle = DATA.jobs[5].title
+            let employeeAge = DATA.details[0].age[3]
             let employeeExperience = DATA.details[1].experience[0]
 
             console.log(`name: ${employeeName} ${employeeName2}, jobs: department: ${employeeJob}, title: ${employeeTitle}, age: ${employeeAge}, Experience: ${employeeExperience}`);
@@ -106,8 +106,8 @@ const DATA = {
             let employeeName = DATA.employees[7] .firstName
             let employeeName2 = DATA.employees[7] .lastName
             let employeeJob = DATA.jobs[1].department
-            let employeeTitle = DATA.jobs[1].title[4]
-            let employeeAge = DATA.details[0].age[0]
+            let employeeTitle = DATA.jobs[1].title[0]
+            let employeeAge = DATA.details[0].age[1]
             let employeeExperience = DATA.details[1].experience[0]
 
             console.log(`name: ${employeeName} ${employeeName2}, jobs: department: ${employeeJob}, title: ${employeeTitle}, age: ${employeeAge}, Experience: ${employeeExperience}`);
@@ -117,8 +117,8 @@ const DATA = {
             let employeeName = DATA.employees[8] .firstName
             let employeeName2 = DATA.employees[8] .lastName
             let employeeJob = DATA.jobs[0].department
-            let employeeTitle = DATA.jobs[1].title[4]
-            let employeeAge = DATA.details[0].age[0]
+            let employeeTitle = DATA.jobs[0].title
+            let employeeAge = DATA.details[0].age[2]
             let employeeExperience = DATA.details[1].experience[0]
 
             console.log(`name: ${employeeName} ${employeeName2}, jobs: department: ${employeeJob}, title: ${employeeTitle}, age: ${employeeAge}, Experience: ${employeeExperience}`);
@@ -128,8 +128,8 @@ const DATA = {
             let employeeName = DATA.employees[9] .firstName
             let employeeName2 = DATA.employees[9] .lastName
             let employeeJob = DATA.jobs[1].department
-            let employeeTitle = DATA.jobs[1].title[4]
-            let employeeAge = DATA.details[0].age[0]
+            let employeeTitle = DATA.jobs[1].title[1]
+            let employeeAge = DATA.details[0].age[1]
             let employeeExperience = DATA.details[1].experience[0]
 
             console.log(`name: ${employeeName} ${employeeName2}, jobs: department: ${employeeJob}, title: ${employeeTitle}, age: ${employeeAge}, Experience: ${employeeExperience}`);
