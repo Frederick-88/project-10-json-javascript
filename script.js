@@ -3,21 +3,21 @@
 // console.log("berisi informasi kpda dev ${info}");
 // console.log(`brisi informasi ${info}`);
 
-// // window.alert("NOTE: SELAMAT ANDA MEMENANGKAN UNDIAN!")
+// window.alert("NOTE: SELAMAT ANDA MEMENANGKAN UNDIAN!")
 
-// // memberikan input nama yang bisa diinput penguna
-// const name = window.prompt("sebutkan nama anda.", "andi");
-// console.log(`nama saya adalah ${name}`);
-// // memberikan input nama yang bisa diinput penguna
+// memberikan input nama yang bisa diinput penguna
+const name = window.prompt("sebutkan nama anda.", "andi");
+console.log(`nama saya adalah ${name}`);
+// memberikan input nama yang bisa diinput penguna
 
-// // KONFIRMASI
-// const confirmNama = window.confirm(`apa bner namamu ${name} ?`)
-// if (confirmNama) {
-//     console.log('silahkan masuk')
-// } else {
-//     console.log('ulangi lagi.')
-// }
 // KONFIRMASI
+const confirmNama = window.confirm(`apa bner namamu ${name} ?`)
+if (confirmNama) {
+    console.log('silahkan masuk')
+} else {
+    console.log('ulangi lagi.')
+}
+KONFIRMASI
 
 // let multiple string penggunaan backtick (`)
 // let multipleString =`
